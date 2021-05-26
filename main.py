@@ -1,13 +1,10 @@
 
-
-mydict = { 1 : "ansari",  3 : "bangalore", 4 : "india", 2 : [1001, 102,103]}
-
+import Test
 
 
-print("value at key 4" , mydict.get(4))
+print("main file")
 
-print(mydict)
+Test.sum(4,5)
 
+Test.mul(4,5)
 
-print("test")
-mytup = (1, [])
